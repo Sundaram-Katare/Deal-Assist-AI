@@ -2,7 +2,7 @@ import { HfInference } from "@huggingface/inference";
 
 const hf = new HfInference(process.env.HUGGINGFACE_API_KEY);
 
-const EMBEDDING_MODEL = "sentence-transformer/all-MiniLM-L6-v2";
+const EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2";
 
 
 export async function generateEmbeddings(texts: string[]): Promise<number[][]> {
