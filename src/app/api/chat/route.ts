@@ -59,5 +59,5 @@ ${context}
   });
 
   // 6. Return the streaming response to the client
-  return result.toDataStreamResponse();
+  return result.toAIStreamResponse();
 }
