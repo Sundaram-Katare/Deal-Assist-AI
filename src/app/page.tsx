@@ -17,13 +17,13 @@ export default function Home() {
         </div>
 
         <div className="text-center flex gap-8 text-black max-w-xl py-6 my-6 font-normal">
-          <Link href={"/login"} className="flex gap-1 items-center  hover:scale-[1.05] transition-all duration-300 text-2xl rounded-full px-4 py-2 text-black font-normal bg-[#00c896]">
+          <Link href={"/sign-in"} className="flex gap-1 items-center  hover:scale-[1.05] transition-all duration-300 text-2xl rounded-full px-4 py-2 text-black font-normal bg-[#00c896]">
             Start Free <MoveRight />
           </Link>
 
-          <Link href={"/login"} className= "hover:scale-[1.05] transition-all duration-300 text-2xl rounded-full px-4 py-2 text-black font-normal bg-white">
+          <div className= "hover:scale-[1.05] transition-all duration-300 text-2xl rounded-full px-4 py-2 text-black font-normal bg-white">
             Book Demo
-          </Link>
+          </div>
         </div>
 
         <Problems />
